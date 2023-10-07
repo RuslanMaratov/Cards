@@ -1,0 +1,54 @@
+.card {
+  width: 250px;
+  background-color: rgb(122, 196, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 1px gray;
+  margin-bottom: 20px;
+}
+
+.cardInput {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.cardTitle {
+  font-size: 16px;
+}
+
+.cardButtonsWrapper {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.cardCreateButton {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.cardCreateButton {
+  width: 70px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+}
+
+.cardCancelButton {
+  width: 70px;
+  height: 30px;
+  font-size: 14px;
+  background-color: rgb(122, 196, 12);
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}

@@ -1,0 +1,14 @@
+.createCardButton {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: auto;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(122, 196, 12);
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 3px 3px 1px gray;
+}

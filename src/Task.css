@@ -1,0 +1,39 @@
+.taskContainer {
+  width: 250px;
+  background-color: rgb(182, 181, 181);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 1px gray;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.taskInput {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+.taskTitle {
+  font-size: 16px;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.cancelButton {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 120px;
+  right: 2px;
+  color: green;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  transform: scale(1.2);
+}
