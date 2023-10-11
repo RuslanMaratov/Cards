@@ -6,6 +6,7 @@
   align-items: center;
   box-shadow: 3px 3px 1px gray;
   margin-bottom: 20px;
+  margin: 20px 35px;
 }
 
 .cardInput {
@@ -35,11 +36,17 @@
   width: 70px;
   height: 30px;
   font-size: 14px;
-  border: 1px solid black;
+  border: 1px solid white;
   background-color: white;
   font-size: 12px;
   font-weight: 600;
   color: black;
+  transition: all ease 0.5s;
+}
+
+.cardCreateButton:hover {
+  background-color: rgb(223, 217, 217);
+  border: 1px solid rgb(223, 217, 217);
 }
 
 .cardCancelButton {
@@ -51,4 +58,9 @@
   font-size: 12px;
   font-weight: 600;
   color: white;
+  transition: 0.5s ease;
+}
+
+.cardCancelButton:hover {
+  transform: scale(1.2);
 }

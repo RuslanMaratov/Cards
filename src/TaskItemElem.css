@@ -1,0 +1,78 @@
+.taskItem {
+  width: 200px;
+  height: auto;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: whitesmoke;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.taskItemCompleted {
+  width: 200px;
+  height: auto;
+  border: 2px solid rgb(122, 196, 12);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: rgb(199, 191, 191);
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.taskName {
+  width: 150px;
+  word-break: break-word;
+}
+
+.taskNameLineThrough {
+  width: 150px;
+  word-break: break-word;
+  text-decoration: line-through 2px solid red;
+}
+
+.checkMarkWrapper {
+  cursor: pointer;
+  transition: transform ease 0.5s;
+}
+
+.checkMarkWrapper:hover {
+  transform: scale(1.2);
+}
+
+.checkMark {
+  display: block;
+  width: 15px;
+  height: 15px;
+  color: red;
+  pointer-events: none;
+}
+
+.checkMarkCompleted {
+  display: block;
+  width: 15px;
+  height: 15px;
+  color: green;
+  pointer-events: none;
+}
+
+.trashWrapper {
+  cursor: pointer;
+  transition: transform ease 0.5s;
+}
+
+.trashWrapper:hover {
+  transform: scale(1.2);
+}
+
+.trash {
+  display: block;
+  width: 15px;
+  height: 15px;
+  color: rgb(122, 196, 12);
+  pointer-events: none;
+}

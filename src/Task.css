@@ -3,11 +3,12 @@
   background-color: rgb(182, 181, 181);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   box-shadow: 3px 3px 1px gray;
   border-radius: 10px;
   margin-bottom: 30px;
+  margin: 20px 35px;
 }
 
 .taskInput {
@@ -32,6 +33,7 @@
   right: 2px;
   color: green;
   cursor: pointer;
+  transition: transform ease 0.5s;
 }
 
 .cancelButton:hover {
